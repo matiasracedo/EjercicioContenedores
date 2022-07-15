@@ -1,0 +1,11 @@
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\bin\Debug\EjercicioContenedores.exe.config
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\bin\Debug\EjercicioContenedores.exe
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\bin\Debug\EjercicioContenedores.pdb
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.csprojAssemblyReference.cache
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.Form1.resources
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.Properties.Resources.resources
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.csproj.GenerateResource.cache
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.csproj.CoreCompileInputs.cache
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.exe
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.pdb
+C:\Users\matia\Projects\Ejercicio1\EjercicioContenedores\EjercicioContenedores\obj\Debug\EjercicioContenedores.TicketForm.resources
