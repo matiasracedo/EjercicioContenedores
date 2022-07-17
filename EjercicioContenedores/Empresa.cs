@@ -9,7 +9,7 @@ namespace EjercicioContenedores
     class Empresa
     {
         private int pesoTotal = 0;
-        private int[] cajasUtilizadas;
+        private int[] cajasUtilizadas = new int[3];
         private int multas = 0;
         private Contenedor[] multa = new Contenedor[20];
         private double cobrado = 0;
@@ -23,6 +23,11 @@ namespace EjercicioContenedores
         public double Cobrado
         {
             get { return cobrado; }
+        }
+
+        public double Multas
+        {
+            get { return multas; }
         }
 
         public int Contendores
@@ -63,6 +68,12 @@ namespace EjercicioContenedores
                 multa[multas] = contenedor;
                 multas++;
             }
+            pesoTotal += contenedor.Peso;
+            cajasUtilizadas[0] += contenedor.Paquetes[0];
+            cajasUtilizadas[1] += contenedor.Paquetes[1];
+            cajasUtilizadas[2] += contenedor.Paquetes[2];
+            cobrado += ticket.Importe;
+            contenedores++;
 
             return ticket;
         }

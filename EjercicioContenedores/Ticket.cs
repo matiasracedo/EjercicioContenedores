@@ -35,24 +35,29 @@ namespace EjercicioContenedores
         public void calcularImporte(bool domFeriado, int peso, bool tipo, int capacidad)
         {
             double resultado = 0;
+            double subtotal = 0;
             // Calcular precio segun el tipo de envio (full o normal)
-            if (tipo) resultado += peso * 8.95;
-            else resultado += peso * 5.25;
+            if (tipo) subtotal += peso * 8.95;
+            else subtotal += peso * 5.25;
             // Calcular recargo por peso
-            if (peso <= capacidad - 100) resultado += resultado * 0.10;
-            else if (peso > capacidad - 100 && peso <= capacidad - 10) resultado += resultado * 0.07;
-            else if (peso > capacidad - 10 && peso <= capacidad + 5) resultado = resultado * 0.95;
-            else if (peso > capacidad + 5 && peso <= capacidad + 50) resultado += resultado * 0.18;
+            if (peso <= capacidad - 100) resultado = subtotal + subtotal * 0.10;
+            else if (peso > capacidad - 100 && peso <= capacidad - 10) resultado = subtotal + subtotal * 0.07;
+            else if (peso > capacidad - 10 && peso <= capacidad + 5) resultado = subtotal - (subtotal * 0.05);
+            else if (peso > capacidad + 5 && peso <= capacidad + 50) resultado = subtotal + subtotal * 0.18;
             else if (peso > capacidad + 50)
             {
-                resultado += resultado * 0.8;
+                resultado = subtotal + subtotal * 0.8;
                 multa = true;
             }
             // Calcular descuento/recargo por horario
-            if (fecha.Hour >= 6 && fecha.Hour <= 20) resultado = resultado * 0.95;
-            else resultado += resultado * 0.04;
+            if (fecha.Hour >= 6 && fecha.Hour <= 20) resultado -= subtotal * 0.05;
+            else resultado += subtotal * 0.04;
+
+            // Agregar recargo si es domingo o feriado
+            if (domFeriado) resultado += 1000;
 
             importe = resultado;
         }
     }
 }
+ 

@@ -36,15 +36,15 @@
             // lBticket
             // 
             this.lBticket.FormattingEnabled = true;
-            this.lBticket.Location = new System.Drawing.Point(3, 4);
+            this.lBticket.Location = new System.Drawing.Point(3, 2);
             this.lBticket.Name = "lBticket";
-            this.lBticket.Size = new System.Drawing.Size(136, 394);
+            this.lBticket.Size = new System.Drawing.Size(148, 264);
             this.lBticket.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(181, 415);
+            this.button1.Location = new System.Drawing.Point(187, 280);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -54,16 +54,16 @@
             // lBvalores
             // 
             this.lBvalores.FormattingEnabled = true;
-            this.lBvalores.Location = new System.Drawing.Point(139, 4);
+            this.lBvalores.Location = new System.Drawing.Point(149, 2);
             this.lBvalores.Name = "lBvalores";
-            this.lBvalores.Size = new System.Drawing.Size(136, 394);
+            this.lBvalores.Size = new System.Drawing.Size(141, 264);
             this.lBvalores.TabIndex = 2;
             // 
             // TicketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 450);
+            this.ClientSize = new System.Drawing.Size(293, 315);
             this.Controls.Add(this.lBvalores);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lBticket);
