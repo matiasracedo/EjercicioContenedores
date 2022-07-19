@@ -167,7 +167,7 @@ namespace EjercicioContenedores
 
             ticket.ShowDialog();
             ticket.Dispose();
-            clearForm();
+            Close();
         }
     }
 }
